@@ -1,1 +1,1 @@
-web: npm start --production
+web: bin/run_cloud_sql_proxy &>null && npm start --production
